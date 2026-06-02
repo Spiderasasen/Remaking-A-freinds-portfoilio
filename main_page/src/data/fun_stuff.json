@@ -1,0 +1,24 @@
+{
+  "favoriteFoods": [
+    "Margherita Pizza",
+    "Chana Masala",
+    "Caprese Salad",
+    "Anything with Avocados"
+  ],
+  "favoriteMovies": [
+    "Inception",
+    "Social Network",
+    "Harry Potter and the Sorcerer's Stone"
+  ],
+  "favoriteTVShows": [
+    "Black Mirror",
+    "Hunter x Hunter",
+    "Silicon Valley"
+  ],
+  "favoriteSongs": [
+    "Daylight by David Kushner",
+    "Für Elise by Beethoven",
+    "Slow Dancing in the Dark by Joji"
+  ],
+  "favoriteSports": "While I enjoy watching a variety of sports, playing tennis is my favorite way to stay active and competitive."
+}
