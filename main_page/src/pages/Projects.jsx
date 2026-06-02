@@ -1,6 +1,8 @@
 import "../styles/main.css"
 import {useNavigate} from "react-router-dom";
 import React from "react";
+import projects from "../data/projects.json";
+import ProjectCard from "../component/Project_Card.jsx";
 
 function Projects() {
     //simple nav
@@ -37,6 +39,24 @@ function Projects() {
                     </ul>
                 </nav>
             </header>
+
+            {/*main section*/}
+            <main>
+                <div className="intro">
+                    <h1>Projects</h1>
+                    <h2>Recent Projects that I had worked on:</h2>
+                </div>
+                <div className="projects">
+                    {projects.map((project) => (
+                        <ProjectCard
+                             key={project.id}
+                             title={project.title}
+                             role={project.role}
+                             description={project.description}
+                        />
+                    ))}
+                </div>
+            </main>
         </>
     )
 }

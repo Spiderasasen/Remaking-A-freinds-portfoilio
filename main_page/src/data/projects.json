@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Elon Open Data Service (ODS)",
+    "role": "Software Engineer",
+    "description": "Built an API for students at Elon that extracts data from university servers including class schedules, building hours, and dining hall menus. Created a design document outlining API endpoints and system architecture. Implemented SAML authentication and cookie-based user verification."
+  },
+  {
+    "id": 2,
+    "title": "KiddyKam @ PennApps",
+    "role": "Software Engineer",
+    "description": "Developed a project for the PennApps hackathon focused on building a functional prototype under time constraints. Contributed to core application logic and team collaboration."
+  },
+  {
+    "id": 3,
+    "title": "HerdsWallet @ HackaBull",
+    "role": "Creator and Software Engineer",
+    "description": "Created the concept for a financial tracking app and worked with a team of four to build it in 36 hours at the 2023 HackaBull Hackathon. Built the front-end using JavaScript and TypeScript, assisted with backend routing, and helped integrate MongoDB."
+  },
+  {
+    "id": 4,
+    "title": "ZenZone @ PhillyCodefest",
+    "role": "Creator and Software Engineer",
+    "description": "Designed and built a guided meditation app with a team of four in 48 hours. Developed the backend in Java, assisted with frontend routing, and helped integrate MongoDB into the backend."
+  },
+  {
+    "id": 5,
+    "title": "Ranked Choice Voting",
+    "role": "Creator and Software Engineer",
+    "description": "Implemented a ranked-choice voting system in Java as part of a Computer Science 2 course. Simulates the voting process to demonstrate a more representative election model where voters rank candidates by preference."
+  }
+]
