@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/divesh-anchaliya-1828591ab/"
+  },
+  {
+    "id": 2,
+    "name": "GitHub",
+    "link": "https://github.com/DiveshAnchaliya"
+  },
+  {
+    "id": 3,
+    "name": "LeetCode",
+    "link": "https://leetcode.com/u/DiveshAnchaliya/"
+  },
+  {
+    "id": 4,
+    "name": "Phone",
+    "link": "919-397-8162"
+  },
+  {
+    "id": 5,
+    "name": "Email",
+    "link": "divesh.nc@gmail.com"
+  }
+]
