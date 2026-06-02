@@ -1,27 +1,30 @@
-# Remaking-A-freinds-portfoilio
-A buddy of mine has a bad looking portfoilio. he said it was ok for me to make it better. and right now, its bad. so i got to remake it
+# Remaking-A-friends-portfolio
+A buddy of mine has a bad-looking portfoilio. He said it was ok for me to make it better. And right now, it's bad. So I got to remake it
 
-# The orginal
+# The original:
 https://diveshanchaliya.xyz/
 
+# The new one:
+https://remaking-a-freinds-por-git-017747-diego-diazs-projects-f032d8be.vercel.app/
+
 # problems
-Where do i start
-- its a static color
-- the colors dont match with the background
-- its all in 1 page
-- he is using a paid website domain name then github pages or Vercel
-- its all just html and css. no hints of js or very little of it
+Where do I start?
+- it's a static color
+- the colors don't match with the background
+- it's all in one page
+- he is using a paid website domain name then GitHub pages or Vercel
+- it's all just HTML and CSS. no hints of js or very little of it
 
 # solutions
 EVERYTHING
-All items are just messed up and we need to fix it propley
+All items are just messed up, and we need to fix it properly
 
 # options
 - react
-  - its very modern and will be used in Vercel Domin
-  - makes it easier for all the data that he has to just load then hard code it
-  - simple work, and i can copy old code for it
+  - it's very modern and will be used in Vercel Domin
+  - it makes it easier for all the data that he has to just load then hard code it
+  - simple work, and I can copy old code for it
 - Normal Web Dev Tools
-  - more complex for laoding all the data but possible
-  - very html heavy
-  - but github pages is very simple to run with it
+  - more complex for loading all the data but possible
+  - very HTML heavy
+  - but GitHub pages are basic to run with it
