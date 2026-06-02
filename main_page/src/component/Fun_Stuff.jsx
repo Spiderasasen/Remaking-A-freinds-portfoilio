@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/fun_stuff.css"
 
 function FunStuff({ title, items }) {
     return (
