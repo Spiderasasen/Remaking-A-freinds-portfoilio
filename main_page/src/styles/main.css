@@ -10,7 +10,7 @@ body{
 main {
     max-width: 900px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 80px 20px;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -18,8 +18,15 @@ main {
 /* ====== HEADER + NAV ====== */
 header {
     background-color: #111;
-    padding: 15px 0;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* keeps it above everything */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
+
 
 nav ul {
     display: flex;

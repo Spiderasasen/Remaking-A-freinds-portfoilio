@@ -14,9 +14,15 @@ function Home() {
         { id: "contact", text: "Contact Me" },
     ];
 
+    //checking what the user clicks
     onclick = (e) => {
-        if(e.target.id === "home") {
-            navigate("/");
+        switch (e.target.id) {
+            case "home":
+                navigate("/");
+                break;
+            case "project":
+                navigate("/projects");
+                break;
         }
     }
 
