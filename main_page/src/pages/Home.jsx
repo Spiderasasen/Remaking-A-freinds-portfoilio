@@ -26,6 +26,9 @@ function Home() {
             case "about":
                 navigate("/about");
                 break;
+            case "contact":
+                navigate("/contact");
+                break;
         }
     }
 

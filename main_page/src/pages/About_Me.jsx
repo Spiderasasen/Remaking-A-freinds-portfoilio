@@ -27,6 +27,9 @@ function About_Me() {
             case "about":
                 navigate("/about");
                 break;
+            case "contact":
+                navigate("/contact");
+                break;
         }
     }
 

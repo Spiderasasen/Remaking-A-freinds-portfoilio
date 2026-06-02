@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home.jsx'
 import Projects from './pages/Projects.jsx'
 import About_Me from './pages/About_Me.jsx'
+import Contact_Me from './pages/Contact_Me.jsx'
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/projects" element={<Projects/>}/>
           <Route path="/about" element={<About_Me/>}/>
+          <Route path="/contact" element={<Contact_Me/>}/>
         </Routes>
       </Router>
   )
