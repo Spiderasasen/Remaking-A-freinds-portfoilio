@@ -1,6 +1,8 @@
 import "../styles/main.css"
 import {useNavigate} from "react-router-dom";
 import React from "react";
+import contacts from "../data/contacts.json";
+import ContactCard from "../component/Contact_Card.jsx";
 
 function Contact_Me() {
     //simple nav
