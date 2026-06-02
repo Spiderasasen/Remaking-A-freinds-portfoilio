@@ -23,6 +23,9 @@ function Projects() {
             case "project":
                 navigate("/projects");
                 break;
+            case "about":
+                navigate("/about");
+                break;
         }
     }
 
