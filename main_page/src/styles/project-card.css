@@ -1,0 +1,42 @@
+/* ====== PROJECT CARD BASE ====== */
+.project-card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* ====== HOVER EFFECT ====== */
+.project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* ====== TITLE ====== */
+.project-card h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* ====== ROLE ====== */
+.project-card h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+}
+
+/* ====== DESCRIPTION ====== */
+.project-card p {
+    margin: 0;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+}
