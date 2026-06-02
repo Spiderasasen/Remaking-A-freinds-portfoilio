@@ -2,18 +2,35 @@ import React from "react";
 import skills from "../data/skills.json";
 import SkillCard from "../component/Skill_Card.jsx"
 import "../styles/main.css";
+import {useNavigate} from "react-router-dom";
 
 function Home() {
+    //simple nav
+    const navigate = useNavigate();
+    const navItems = [
+        { id: "home", text: "Home" },
+        { id: "project", text: "Projects" },
+        { id: "about", text: "About Me" },
+        { id: "contact", text: "Contact Me" },
+    ];
+
+    onclick = (e) => {
+        if(e.target.id === "home") {
+            navigate("/");
+        }
+    }
+
+    // web dev area
     return(
         <>
             {/*header section*/}
             <header>
                 <nav>
                     <ul>
-                        <li>Home</li>
-                        <li>Projects</li>
-                        <li>About</li>
-                        <li>Contact</li>
+                        <li id={"home"}>Home</li>
+                        <li id={"project"}>Projects</li>
+                        <li id={"about"}>About Me</li>
+                        <li id={"contact"}>Contact Me</li>
                     </ul>
                 </nav>
             </header>
