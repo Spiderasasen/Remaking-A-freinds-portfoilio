@@ -1,0 +1,53 @@
+/* ====== CONTACT CARD BASE ====== */
+.contact-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ====== HOVER EFFECT ====== */
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* ====== TITLE ====== */
+.contact-card h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+}
+
+/* ====== LINKS ====== */
+.contact-card a {
+    font-size: 15px;
+    color: #0077cc;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.contact-card a:hover {
+    text-decoration: underline;
+}
+
+/* ====== TEXT (for phone numbers) ====== */
+.contact-card p {
+    margin: 0;
+    font-size: 15px;
+    color: #444;
+}
+
+/* ====== GRID LAYOUT FOR ALL CONTACT CARDS ====== */
+.contact-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}

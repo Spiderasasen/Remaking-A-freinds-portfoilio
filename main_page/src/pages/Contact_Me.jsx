@@ -49,6 +49,15 @@ function Contact_Me() {
             <main>
                 <div className="intro">
                     <h1>Contact Me</h1>
+                    <div className="contacts">
+                        {contacts.map((contact) => (
+                            <ContactCard
+                                key={contact.id}
+                                name={contact.name}
+                                link={contact.link}
+                            />
+                        ))}
+                    </div>
                 </div>
             </main>
         </>

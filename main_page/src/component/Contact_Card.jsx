@@ -1,9 +1,10 @@
 import React from 'react';
+import "../styles/contacts.css"
 
 function ContactCard({name, link}) {
     if(name !== "Email" && name !== "Phone"){
         return (
-            <div>
+            <div className="contact-card">
                 <h3>{name}</h3>
                 <a href={link} target="_blank">{link}</a>
             </div>
@@ -11,7 +12,7 @@ function ContactCard({name, link}) {
     }
     else if(name === "Email"){
         return (
-            <div>
+            <div className="contact-card">
                 <h3>{name}</h3>
                 <a href={`mailto:${link}`}>{link}</a>
             </div>
@@ -19,7 +20,7 @@ function ContactCard({name, link}) {
     }
     else{
         return(
-            <div>
+            <div className="contact-card">
                 <h3>{name}</h3>
                 <p>{link}</p>
             </div>
