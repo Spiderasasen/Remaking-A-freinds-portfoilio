@@ -1,5 +1,6 @@
 import "../styles/main.css"
 import {useNavigate} from "react-router-dom";
+import React from "react";
 
 function Contact_Me() {
     //simple nav
@@ -31,7 +32,23 @@ function Contact_Me() {
 
     return(
         <>
-            <h1>Contact Me</h1>
+            <header>
+                <nav>
+                    <ul>
+                        <li id={"home"}>Home</li>
+                        <li id={"project"}>Projects</li>
+                        <li id={"about"}>About Me</li>
+                        <li id={"contact"}>Contact Me</li>
+                    </ul>
+                </nav>
+            </header>
+
+            {/*main section*/}
+            <main>
+                <div className="intro">
+                    <h1>Contact Me</h1>
+                </div>
+            </main>
         </>
     )
 }
