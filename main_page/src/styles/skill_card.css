@@ -1,0 +1,28 @@
+/* ====== SKILL CARD BASE ====== */
+.skill-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid #e5e5e5;
+}
+
+/* ====== HOVER EFFECT ====== */
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+}
+
+/* ====== TEXT ====== */
+.skill-card h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #222;
+}
+
+.skill-card p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.4;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 import skills from "../data/skills.json";
+import SkillCard from "../component/Skill_Card.jsx"
+import "../styles/main.css";
 
 function Home() {
     return(
@@ -27,11 +29,12 @@ function Home() {
                 <p>Here are some skills I have:</p>
                 <div className="skills">
                     {skills.map((skill) => (
-                        <div key={skill.id} className="skill_card">
-                            <h3>{skill.name}</h3>
-                            <h4>{skill.category}</h4>
-                            <p>{skill.description}</p>
-                        </div>
+                        <SkillCard
+                            key={skill.id}
+                            name={skill.name}
+                            category={skill.category}
+                            description={skill.description}
+                        />
                     ))}
                 </div>
             </main>
