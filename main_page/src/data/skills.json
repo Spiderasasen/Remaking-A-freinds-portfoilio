@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Python",
+    "category": "Programming Language",
+    "description": "General-purpose language used for scripting, automation, data analysis, and backend development."
+  },
+  {
+    "id": 2,
+    "name": "Java",
+    "category": "Programming Language",
+    "description": "Object-oriented language used for backend systems, Android development, and academic CS foundations."
+  },
+  {
+    "id": 3,
+    "name": "Go",
+    "category": "Programming Language",
+    "description": "Compiled language designed for concurrency, backend services, and high-performance systems."
+  },
+  {
+    "id": 4,
+    "name": "JavaScript",
+    "category": "Programming Language",
+    "description": "Primary language of the web used for interactive front-end and full-stack development."
+  },
+  {
+    "id": 5,
+    "name": "TypeScript",
+    "category": "Programming Language",
+    "description": "Typed superset of JavaScript used for scalable, maintainable front-end and back-end applications."
+  },
+  {
+    "id": 6,
+    "name": "HTML",
+    "category": "Web Technology",
+    "description": "Markup language used to structure content on the web."
+  },
+  {
+    "id": 7,
+    "name": "CSS",
+    "category": "Web Technology",
+    "description": "Styling language used to design and layout web pages."
+  },
+  {
+    "id": 8,
+    "name": "Node.js",
+    "category": "Backend Technology",
+    "description": "JavaScript runtime used for building scalable server-side applications."
+  },
+  {
+    "id": 9,
+    "name": "React",
+    "category": "Frontend Framework",
+    "description": "JavaScript library for building component-based user interfaces."
+  },
+  {
+    "id": 10,
+    "name": "C",
+    "category": "Programming Language",
+    "description": "Low-level language used for systems programming and performance-critical applications."
+  },
+  {
+    "id": 11,
+    "name": "C++",
+    "category": "Programming Language",
+    "description": "High-performance language used for systems, game engines, and computational tasks."
+  },
+  {
+    "id": 12,
+    "name": "Assembly Language",
+    "category": "Low-Level Programming",
+    "description": "Hardware-level programming used for understanding CPU operations and optimization."
+  },
+  {
+    "id": 13,
+    "name": "Flask",
+    "category": "Backend Framework",
+    "description": "Lightweight Python web framework used for APIs and backend services."
+  },
+  {
+    "id": 14,
+    "name": "API Integrations",
+    "category": "Software Development",
+    "description": "Experience connecting applications to external services and data sources."
+  },
+  {
+    "id": 15,
+    "name": "Public Speaking",
+    "category": "Soft Skill",
+    "description": "Ability to communicate ideas clearly and confidently in presentations and group settings."
+  }
+]
