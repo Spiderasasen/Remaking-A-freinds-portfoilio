@@ -61,10 +61,8 @@ function About_Me() {
                 <div className="about">
                     <figure>
                         <img src={Tubby} alt="A picture of Divesh Anchaliya"/>
-                        <figcaption>Image of Divesh Anchaliya when he graduated Elon University</figcaption>
                     </figure>
-                    <h3>About me</h3>
-                    <p>My name is Divesh Anchaliya, and I am a sophomore at Elon University majoring in Computer Science and Mathematics on the Pre-Law track. I am aspiring to attend Law School and to specialize in Patent and Intellectual Property Law. I have a passion for coding, solving complex problems, engaging in mathematical research, and playing tennis. I am constantly seeking out new learning opportunities and experiences to further my understanding of technology and its applications.</p>
+                    <p className="about-text">My name is Divesh Anchaliya, and I am a sophomore at Elon University majoring in Computer Science and Mathematics on the Pre-Law track. I am aspiring to attend Law School and to specialize in Patent and Intellectual Property Law. I have a passion for coding, solving complex problems, engaging in mathematical research, and playing tennis. I am constantly seeking out new learning opportunities and experiences to further my understanding of technology and its applications.</p>
                 </div>
 
                 <div>
