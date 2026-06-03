@@ -5,7 +5,7 @@ A buddy of mine has a bad-looking portfoilio. He said it was ok for me to make i
 https://diveshanchaliya.xyz/
 
 # The new one:
-https://remaking-a-freinds-por-git-017747-diego-diazs-projects-f032d8be.vercel.app/
+https://remaking-a-freinds-portfoilio-i7mp.vercel.app
 
 # problems
 Where do I start?
