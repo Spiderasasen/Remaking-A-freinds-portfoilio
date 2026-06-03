@@ -3,8 +3,13 @@ import {useNavigate} from "react-router-dom";
 import React from "react";
 import projects from "../data/projects.json";
 import ProjectCard from "../component/Project_Card.jsx";
+import {useEffect} from "react";
 
 function Projects() {
+    React.useEffect(() => {
+        document.title = "Divesh Anchaliya | Projects";
+    })
+
     //simple nav
     const navigate = useNavigate();
     const navItems = [

@@ -3,8 +3,15 @@ import skills from "../data/skills.json";
 import SkillCard from "../component/Skill_Card.jsx"
 import "../styles/main.css";
 import {useNavigate} from "react-router-dom";
+import {useEffect} from "react";
+import Raect from "react";
 
 function Home() {
+    // changing the title name
+    Raect.useEffect(() => {
+        document.title = "Divesh Anchaliya | Home";
+    })
+
     //simple nav
     const navigate = useNavigate();
     const navItems = [

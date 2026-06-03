@@ -5,6 +5,10 @@ import contacts from "../data/contacts.json";
 import ContactCard from "../component/Contact_Card.jsx";
 
 function Contact_Me() {
+    React.useEffect(() => {
+        document.title = "Divesh Anchaliya | Contact Me";
+    })
+
     //simple nav
     const navigate = useNavigate();
     const navItems = [

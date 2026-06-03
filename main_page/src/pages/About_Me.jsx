@@ -6,6 +6,10 @@ import fun_stuff from "../data/fun_stuff.json";
 import FunStuff from "../component/Fun_Stuff.jsx";
 
 function About_Me() {
+    React.useEffect(() => {
+        document.title = "Divesh Anchaliya | About Me";
+    })
+
     //simple nav
     const navigate = useNavigate();
     const navItems = [
